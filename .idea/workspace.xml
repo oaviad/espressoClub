@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2128305-9f0a-4096-b89c-67fa405cba10" name="Default Changelist" comment="" />
+    <list default="true" id="a2128305-9f0a-4096-b89c-67fa405cba10" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/espresso/espressoclub/AdvancedExampleTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/espresso/espressoclub/AdvancedExampleTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/espresso/espressoclub/BasicExampleTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/espresso/espressoclub/BasicExampleTest.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="ce051715632c4b1403" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -45,7 +53,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android Instrumented Tests.BasicExampleTest">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -104,6 +112,59 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BasicExampleTest" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.espresso.espressoclub.BasicExampleTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android Instrumented Tests.BasicExampleTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -123,21 +184,25 @@
       <screen x="0" y="23" width="1440" height="805" />
     </state>
     <state x="184" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.805@0.23.1440.805" timestamp="1594645703611" />
-    <state width="1414" height="231" key="GridCell.Tab.0.bottom" timestamp="1594645705349">
+    <state width="1388" height="184" key="GridCell.Tab.0.bottom" timestamp="1594648061402">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
-    <state width="1414" height="231" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1594645705349" />
-    <state width="1414" height="231" key="GridCell.Tab.0.center" timestamp="1594645705349">
+    <state width="1388" height="184" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1594648061402" />
+    <state width="1388" height="184" key="GridCell.Tab.0.center" timestamp="1594648061402">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
-    <state width="1414" height="231" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1594645705349" />
-    <state width="1414" height="231" key="GridCell.Tab.0.left" timestamp="1594645705348">
+    <state width="1388" height="184" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1594648061402" />
+    <state width="1388" height="184" key="GridCell.Tab.0.left" timestamp="1594648061401">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
-    <state width="1414" height="231" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1594645705348" />
-    <state width="1414" height="231" key="GridCell.Tab.0.right" timestamp="1594645705349">
+    <state width="1388" height="184" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1594648061401" />
+    <state width="1388" height="184" key="GridCell.Tab.0.right" timestamp="1594648061402">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
-    <state width="1414" height="231" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1594645705349" />
+    <state width="1388" height="184" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1594648061402" />
+    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1594646329280">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1440.805@0.23.1440.805" timestamp="1594646329280" />
   </component>
 </project>

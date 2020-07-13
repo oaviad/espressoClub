@@ -52,13 +52,20 @@ class BasicExampleTest {
 
     @Test
     fun loginWithInvalidCredentials() {
+
         // Type user name.
         onView(withId(R.id.usernameEditText))
             .perform(typeText(USER_NAME), ViewActions.closeSoftKeyboard())
         // Type invalid password.
         onView(withId(R.id.passwordEditText))
             .perform(typeText(INVALID_PASSWORD), ViewActions.closeSoftKeyboard())
+
         // Validate login button is disabled.
         onView(withId(R.id.login)).check(matches(not(isEnabled())))
+        // Validate password error is displayed
+        rule.scenario.onActivity {
+            Truth.assertThat(it.passwordEditText.error)
+                .isEqualTo(getString(R.string.invalid_password))
+        }
     }
 }
