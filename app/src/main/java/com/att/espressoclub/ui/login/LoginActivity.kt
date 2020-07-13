@@ -19,6 +19,8 @@ import android.widget.Toast
 import com.att.espressoclub.R
 import com.att.espressoclub.ui.MainActivity
 
+const val INTENT_EXTRA_DISPLAY_NAME = "displayName"
+
 class LoginActivity : AppCompatActivity() {
 
     private lateinit var loginViewModel: LoginViewModel
@@ -102,7 +104,7 @@ class LoginActivity : AppCompatActivity() {
     private fun gotoMainScreen(model: LoggedInUserView) {
         val displayName = model.displayName
         val intent = Intent(this, MainActivity::class.java)
-        intent.putExtra("displayName", displayName)
+        intent.putExtra(INTENT_EXTRA_DISPLAY_NAME, displayName)
         startActivity(intent)
     }
 
