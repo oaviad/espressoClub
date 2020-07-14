@@ -17,7 +17,7 @@ class AdvancedExampleTest {
     lateinit var scenario: ActivityScenario<MainActivity>
 
     @Test
-    fun launchMainActivityWithLongDisplayName() {
+    fun launchMainActivityWithLongDisplayNameExtra() {
         val intent = Intent(ApplicationProvider.getApplicationContext(), MainActivity::class.java)
             .putExtra(
                 INTENT_EXTRA_DISPLAY_NAME,
